@@ -1,0 +1,51 @@
+	div {
+			border-right: 1px solid #BBB;
+			background: #CCC;
+			height: 200px;
+			margin-bottom: 10px;
+		}
+		.row {
+			background: transparent;
+			border: none;
+			border-top: 3px solid #888;
+			height: auto;
+			margin:0;
+			overflow: hidden;
+		}
+		#twr {
+			background: none;
+			height: auto;
+		}
+		#twr.container {
+			border: 1px solid blue;
+		}
+		#twr #i1{
+			display: none;
+		}
+		#twr.container #i1{
+			display: block;
+			height: auto;
+			background: none;
+			border: none;
+		}
+		#twr #i2{
+			display: block;
+			height: auto;
+			background: none;
+			border: none;
+		}
+		#twr.container #i2{
+			display: none;
+		}
+		#twr #i2 .visible-lg{
+			color: black;
+		}
+		#twr #i2 .visible-md{
+			color: gray;
+		}
+		#twr #i2 .visible-sm{
+			color: black;
+		}
+		#twr #i2 .visible-xs{
+			color: gray;
+		}
